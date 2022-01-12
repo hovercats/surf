@@ -157,7 +157,7 @@ static Key keys[] = {
 	{ 0,                     GDK_KEY_k,      scrollv,    { .i = -10 } },
 	{ 0,                     GDK_KEY_space,  scrollv,    { .i = +50 } },
 	{ 0,                     GDK_KEY_b,      scrollv,    { .i = -50 } },
-	{ 0,                     GDK_KEY_i,      scrollh,    { .i = +10 } },
+	{ 0,                     GDK_KEY_o,      scrollh,    { .i = +10 } },
 	{ 0,                     GDK_KEY_u,      scrollh,    { .i = -10 } },
 
 
