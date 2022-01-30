@@ -1,0 +1,5 @@
+*.o
+surf
+webext-surf.so
+patches/
+config.h
