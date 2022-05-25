@@ -9,6 +9,7 @@ Patches/Changes
 - Quit-hotkey
 - Surf websearch
 - Fixed manpage accordingly
+- Cache/Cookies goes to /tmp
 
 Requirements
 ------------
