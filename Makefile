@@ -22,7 +22,7 @@ options:
 surf: $(OBJ)
 	$(CC) $(SURFLDFLAGS) $(LDFLAGS) -o $@ $(OBJ) $(LIBS)
 
-$(OBJ) $(WOBJ): config.h common.h config.mk
+$(OBJ) $(WOBJ): config.h config.mk
 
 config.h:
 	cp config.def.h $@

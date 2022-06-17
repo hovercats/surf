@@ -153,11 +153,11 @@ static Key keys[] = {
 	{ 0,                     GDK_KEY_f,      spawn,      SETPROP("_SURF_FIND", "_SURF_FIND", PROMPT_FIND) },
 	{ 0,                     GDK_KEY_slash,  spawn,      SETPROP("_SURF_FIND", "_SURF_FIND", PROMPT_FIND) },
 	{ 0,                     GDK_KEY_s,      spawn,      SEARCH() },
-  { 0,                     GDK_KEY_m,      spawn,      BM_ADD("_SURF_URI") },
+    { 0,                     GDK_KEY_m,      spawn,      BM_ADD("_SURF_URI") },
 
 	{ 0,                     GDK_KEY_c,      stop,       { 0 } },
-  { 0,                     GDK_KEY_i,      insert,     { .i = 1 } },
-  { 0,                     GDK_KEY_Escape, insert,     { .i = 0 } },	
+    { 0,                     GDK_KEY_i,      insert,     { .i = 1 } },
+    { 0,                     GDK_KEY_Escape, insert,     { .i = 0 } },	
 	{ 0,              			 GDK_KEY_q,   	 quit,	     { 0 } },
 
 	{ 0,                     GDK_KEY_r,      reload,     { .i = 0 } },
@@ -187,7 +187,6 @@ static Key keys[] = {
 	{ 0|GDK_SHIFT_MASK,      GDK_KEY_n,      find,       { .i = -1 } },
 
 	{ 0|GDK_SHIFT_MASK,      GDK_KEY_p,      print,      { 0 } },
-	{ MODKEY,                GDK_KEY_t,      showcert,   { 0 } },
 
 	{ MODKEY|GDK_SHIFT_MASK, GDK_KEY_a,      togglecookiepolicy, { 0 } },
 	{ 0,                     GDK_KEY_F11,    togglefullscreen, { 0 } },
