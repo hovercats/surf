@@ -4,8 +4,8 @@ static char *fulluseragent  = ""; /* Or override the whole user agent string */
 static char *scriptfile     = "~/.surf/script.js";
 static char *styledir       = "~/.surf/styles/";
 static char *certdir        = "~/.surf/certificates/";
-static char *cachedir       = "~/.surf/cache/";
-static char *cookiefile     = "~/.surf/cookies.txt";
+static char *cachedir       = "/tmp/cache";
+static char *cookiefile     = "/tmp/cookies.txt";
 static char *searchurl      = "duckduckgo.com/?q=%s";
 
 /* Webkit default features */
@@ -158,7 +158,7 @@ static Key keys[] = {
 	{ 0,                     GDK_KEY_c,      stop,       { 0 } },
     { 0,                     GDK_KEY_i,      insert,     { .i = 1 } },
     { 0,                     GDK_KEY_Escape, insert,     { .i = 0 } },	
-	{ 0,              			 GDK_KEY_q,   	 quit,	     { 0 } },
+	{ 0,           			 GDK_KEY_q,   	 quit,	     { 0 } },
 
 	{ 0,                     GDK_KEY_r,      reload,     { .i = 0 } },
 
