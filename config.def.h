@@ -152,7 +152,6 @@ static Key keys[] = {
 	{ 0,                     GDK_KEY_g,      spawn,      SETPROP("_SURF_URI", "_SURF_GO", PROMPT_GO) },
 	{ 0,                     GDK_KEY_f,      spawn,      SETPROP("_SURF_FIND", "_SURF_FIND", PROMPT_FIND) },
 	{ 0,                     GDK_KEY_slash,  spawn,      SETPROP("_SURF_FIND", "_SURF_FIND", PROMPT_FIND) },
-	{ 0,                	 GDK_KEY_w,      playexternal, { 0 } },
 	{ 0,                     GDK_KEY_s,      spawn,      SEARCH() },
     { 0,                     GDK_KEY_m,      spawn,      BM_ADD("_SURF_URI") },
 
