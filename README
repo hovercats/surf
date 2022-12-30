@@ -4,7 +4,6 @@ surf is a simple Web browser based on WebKit/GTK+.
 
 Patches/Changes 
 ---------------
-- Bookmark patch
 - Modal patch
 - Quit-hotkey
 - Surf websearch
