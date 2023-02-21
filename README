@@ -6,7 +6,9 @@ Patches/Changes
 ---------------
 - Modal patch
 - Quit-hotkey
-- Surf websearch
+- Search engines patch
+	- search with <space> <string>
+	- See config.def.h for current available engines
 - Fixed manpage accordingly
 - Cache/Cookies goes to /tmp
 - Patched out the need for gcr (thanks to kyx0r)
